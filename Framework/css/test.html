@@ -1,0 +1,65 @@
+<!DOCTYPE HTML>
+<html>
+	<head>
+		<script type="text/javascript" src="jquery-1.11.2.js"></script>
+		<script type="text/javascript" src="portfolio/bootstrap/js/bootstrap.min.js"></script>
+
+		<link rel="stylesheet" 
+		href="main.css">
+		<link href='http://fonts.googleapis.com/css?family=Playfair+Display+SC' rel='stylesheet' type='text/css'>
+		<title>Framework Test Page</title>
+	</head>
+	<body>
+		<div class="grid">
+			<div class="row">
+				<div class="col-2">
+					<img class="img-responsive" src="http://fillmurray.com/100/100">
+				</div>
+				<div class="col-10 end">
+					<h1>Patrick Wright</h1>
+					<h3>Front-End Dev</h3>
+				</div>				
+			</div>
+			<hr COLOR="gray">
+			<div class="row">
+				<img src="http://fillmurray.com/1200/400">
+			</div>
+			<div class="row">
+				<div class="col-3">Featured Work</div>
+				<div class="col-9"></div>
+			</div>
+			<div class="row">
+				<div class="col-4">
+					<img class="img-responsive" src="http://fillmurray.com/350/200" 
+						data-toggle="modal" data-target="#project1">
+					<h2>APPIFY</h2>
+					<h5>https://github.com/udacity/Appify/</h5>
+				</div>
+				<div class="col-4"><img src="http://fillmurray.com/350/200">
+					<h2>SUNFLOWER</h2>
+					<h5>https://github.com/udacity/sunflower/</h5>
+				</div>
+				<div class="col-4"><img src="http://fillmurray.com/350/200">
+					<h2>BOKEH</h2>
+					<h5>https://github.com/udacity/Bokeh/</h5>
+				</div>
+			</div>
+<!-- Modal -->
+<div class="modal fade" id="project1" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+           <h4 class="modal-title" id="myModalLabel">Favorite App Page</h4>
+      </div>
+      <div class="modal-body">
+        <img class="img-responsive" src="http://fillmurray.com/300/300">
+        	This was my first project in this class. I learned alot about HTML and CSS.
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+      </div>
+    </div>
+  </div>
+</div>
+	</body>
+</html>

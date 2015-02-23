@@ -1,0 +1,43 @@
+h1 {
+	padding-top: .7em;
+	padding-left: .4em;
+	max-width: 600px;
+}
+body {
+	width:80%;
+	margin-left:auto;
+	margin-right:auto;
+	padding-top: .8em;
+}
+div {
+	padding-right: 2em;
+	padding-top: .2em;
+}
+	.title {
+	background-color: #33BEBE
+}
+.title {
+	font-size: 2.4em; 
+	color: #EAF0EF;
+	font-weight: 100;
+	font-family: helvetica;
+}
+.app {
+	display: flex;
+	color: #7C8B88;
+}
+.screenshot {
+	max-width: 460px;
+}
+.description {
+	max-width: 705px;
+	font-family: helvetica bolder;
+	font-size: 1.4em;
+
+}
+*{
+	-webkit-boxsizing: border-box;
+	-moz-boxsizing: border-box;
+	-ms-boxsizing: border-box;
+	boxsizing: border-box;
+}

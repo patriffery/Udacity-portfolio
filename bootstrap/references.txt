@@ -1,0 +1,11 @@
+Udacity.com intro to html & css
+
+www.cssfontstack.com/verdana
+
+jigsaw.w3.org/css-validator/validator
+
+http://validator.w3.org/
+
+http://getbootstrap.com/css/
+
+Also the class discussions
